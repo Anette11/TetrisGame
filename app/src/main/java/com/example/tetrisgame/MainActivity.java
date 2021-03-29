@@ -283,13 +283,6 @@ public class MainActivity extends AppCompatActivity {
                     linearLayoutNextPosition1
             );
 
-//            boolean isNewPositionOfBlockNotOverlapPreviousBlocks
-//                    = checkIfNewPositionOfBlockNotOverlapPreviousBlocks(
-//                    nextPositionForLinearLayout4,
-//                    nextPositionForLinearLayout3,
-//                    nextPositionForLinearLayout2,
-//                    nextPositionForLinearLayout1);
-
             if (areAllLinearLayoutsEmpty) {
                 setCountDownForBlock(
                         nextPositionForLinearLayout4,
@@ -1215,6 +1208,7 @@ public class MainActivity extends AppCompatActivity {
                         newPositionForLinearLayout3 = positionForLinearLayout3;
                         newPositionForLinearLayout2 = positionForLinearLayout2;
                         newPositionForLinearLayout1 = positionForLinearLayout1;
+
                     } else {
                         isRotateRightPressedOneTime = true;
                     }
