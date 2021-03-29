@@ -9,4 +9,4 @@ If whole horizontal line is filled without gaps, it will change color, and will 
 
 When game field is full, toast will show message that game is over.
 
-<img src="gif.gif" width="324" height="576">
+<img src="gif2.gif" width="324" height="576">
